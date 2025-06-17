@@ -8,6 +8,7 @@ public class Character {
     	  this.y =y;
     	  this.vx = vx;
     	  this.vy = vy;
+    	  
       }
       public void move() {
     	  //moveメソッド(6章)
@@ -19,5 +20,5 @@ public class Character {
     	  //draw:　標準では単純な四角形が描かれる
     	  f.setColor(0,128,0);
     	  f.fillRect(x,y,30,30);
-      }
+     }
 }
