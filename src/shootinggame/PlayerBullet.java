@@ -9,11 +9,11 @@ public class PlayerBullet extends Character {
 	}
 	public void draw(MyFrame f) {
 		f.setColor(0,0,0);
-		f.fillOval(x+10, y, 10, 30);
+		f.fillRect(x+10, y, 5, 5);
 	}
     public void move() {
     //右斜め
-      x=x+3;
+      x=x+1;
 	  x+=vx;
 	  y+=vy;
     }
